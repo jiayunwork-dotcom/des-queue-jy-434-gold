@@ -52,7 +52,7 @@ func pct(a, b float64) float64 {
 	if b == 0 {
 		return 0
 	}
-	return (b - a) / b * 100
+	return (a - b) / b * 100
 }
 
 // Report 生成多行文本报告：配置、仿真结果、理论值与误差对照。
